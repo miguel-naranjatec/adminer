@@ -1,0 +1,30 @@
+{
+    "name": "naranjatec/adminer",
+    "description": "Description",
+    "license": "proprietary",
+    "keywords": [
+        "adminer"
+    ],
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Naranjatec\\Adminer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Angel Moya Perona",
+            "email": "miguelangel@naranjatec.com",
+            "homepage": "http://banzee.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
